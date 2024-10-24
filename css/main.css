@@ -1,5 +1,157 @@
 @charset "utf-8";
 
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+}
+
+#rotate{
+    width: 100dvw;
+    height: 100dvh;
+}
+
+#upper{
+    background-color: #b3aaa3;
+    display: flex;
+    width: 100%;
+    height: 12%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#upper > #logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30pt;
+    font-family: "Nanum Gothic";
+}
+
+#upper > #subject{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30pt;
+    font-family: "Nanum Gothic";
+}
+
+#lower{
+    width: 100%;
+    height: 88%;
+    display: flex;
+}
+
+#lower > #left{
+    width: 75%;
+    height: 100%;
+    background-color: #dbd7d4;
+}
+
+#left > #left_upper{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    width: 100%;
+    height: 5%;
+    font-family: "Nanum Gothic";
+    font-size: 20pt;
+    background-color: #969696;
+}
+
+#left > #left_main{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+#left_main > .main_text{
+    font-family: "Nanum Gothic";
+    font-size: 30pt;
+    padding-left: 2%;
+}
+
+.main_text > .accent{
+    border: 1px solid red;
+}
+
+#left > #left_lower{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #969696;
+}
+
+#left_lower > span{
+    font-family: "Nanum Gothic";
+    font-size: 20pt;
+    padding-left: 2%;
+}
+
+
+#lower > #right{
+    width: 25%;
+    height: 100%;
+    background-color: #e3dcd6;
+}
+
+#right > #right_upper{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+#right_upper > span{
+    font-family: "Nanum Gothic";
+    font-size: 20pt;
+}
+
+#right > #right_main{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right_main > span{
+    font-size: 20pt;
+    font-family: "Nanum Gothic";
+    text-align: center;
+}
+
+#right > #right_lower{
+    width: 100%;
+    height: 10%;
+    background-color: #f3f3f3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right_lower > span{
+    font-family: "Nanum Gothic";
+    font-size: 15pt;
 }
