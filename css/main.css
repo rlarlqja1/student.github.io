@@ -60,7 +60,7 @@ body{
 #lower > #left{
     width: 75%;
     height: 100%;
-    background-color: #dbd7d4;
+    background-color: #f3f3f3;
 }
 
 #left > #left_upper{
@@ -71,7 +71,7 @@ body{
     height: 10%;
     font-family: "Nanum Gothic";
     font-size: 25pt;
-    background-color: #969696;
+    background-color: #dbd7d4;
 }
 
 #left_upper > img{
@@ -94,7 +94,8 @@ body{
 }
 
 .main_text > .accent{
-    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 5px;
 }
 
 #left > #left_lower{
@@ -103,7 +104,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #969696;
+    background-color: #dbd7d4;
 }
 
 #left_lower > span{
@@ -116,7 +117,7 @@ body{
 #lower > #right{
     width: 25%;
     height: 100%;
-    background-color: #e3dcd6;
+    background-color: #eaebea;
 }
 
 #right > #right_upper{
@@ -125,7 +126,7 @@ body{
     padding-left: 2%;
     display: flex;
     align-items: center;
-    background-color: #f3f3f3;
+    background-color: #e3dcd6;
 }
 
 #right_upper > img{
@@ -155,7 +156,7 @@ body{
 #right > #right_lower{
     width: 100%;
     height: 10%;
-    background-color: #f3f3f3;
+    background-color: #e3dcd6;
     display: flex;
     align-items: center;
     justify-content: center;
